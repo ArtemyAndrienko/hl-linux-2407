@@ -1,0 +1,6 @@
+[nginx]
+${nginx_name} ansible_host=${nginx_ip}
+
+[nginx:vars]
+ansible_user=${username}
+ansible_ssh_private_key_file=${ssh_nginx_key}
